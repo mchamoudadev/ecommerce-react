@@ -1,0 +1,152 @@
+[
+	{
+		"id": 1,
+		"name": "Product-1",
+		"description": "This is a brief description of Product-1.",
+		"price": 93.07,
+		"stock": 0,
+		"image": "https://fakeimg.pl/250x250/?text=Product-1&font=lobster",
+		"category": "Books",
+		"rating": 2.7
+	},
+	{
+		"id": 2,
+		"name": "Product-2",
+		"description": "This is a brief description of Product-2.",
+		"price": 44.45,
+		"stock": 28,
+		"image": "https://fakeimg.pl/250x250/?text=Product-2&font=lobster",
+		"category": "Books",
+		"rating": 2.2
+	},
+	{
+		"id": 3,
+		"name": "Product-3",
+		"description": "This is a brief description of Product-3.",
+		"price": 37.81,
+		"stock": 68,
+		"image": "https://fakeimg.pl/250x250/?text=Product-3&font=lobster",
+		"category": "Home Decor",
+		"rating": 4.1
+	},
+	{
+		"id": 4,
+		"name": "Product-4",
+		"description": "This is a brief description of Product-4.",
+		"price": 80.38,
+		"stock": 4,
+		"image": "https://fakeimg.pl/250x250/?text=Product-4&font=lobster",
+		"category": "Electronics",
+		"rating": 1.2
+	},
+	{
+		"id": 5,
+		"name": "Product-5",
+		"description": "This is a brief description of Product-5.",
+		"price": 54.37,
+		"stock": 71,
+		"image": "https://fakeimg.pl/250x250/?text=Product-5&font=lobster",
+		"category": "Electronics",
+		"rating": 4.1
+	},
+	{
+		"id": 6,
+		"name": "Product-6",
+		"description": "This is a brief description of Product-6.",
+		"price": 38.46,
+		"stock": 93,
+		"image": "https://fakeimg.pl/250x250/?text=Product-6&font=lobster",
+		"category": "Toys",
+		"rating": 2.9
+	},
+	{
+		"id": 7,
+		"name": "Product-7",
+		"description": "This is a brief description of Product-7.",
+		"price": 71.89,
+		"stock": 15,
+		"image": "https://fakeimg.pl/250x250/?text=Product-7&font=lobster",
+		"category": "Electronics",
+		"rating": 1.5
+	},
+	{
+		"id": 8,
+		"name": "Product-8",
+		"description": "This is a brief description of Product-8.",
+		"price": 21.18,
+		"stock": 51,
+		"image": "https://fakeimg.pl/250x250/?text=Product-8&font=lobster",
+		"category": "Toys",
+		"rating": 3.3
+	},
+	{
+		"id": 9,
+		"name": "Product-9",
+		"description": "This is a brief description of Product-9.",
+		"price": 67.11,
+		"stock": 72,
+		"image": "https://fakeimg.pl/250x250/?text=Product-9&font=lobster",
+		"category": "Electronics",
+		"rating": 1.3
+	},
+	{
+		"id": 10,
+		"name": "Product-10",
+		"description": "This is a brief description of Product-10.",
+		"price": 75.83,
+		"stock": 36,
+		"image": "https://fakeimg.pl/250x250/?text=Product-10&font=lobster",
+		"category": "Books",
+		"rating": 4.2
+	},
+	{
+		"id": 11,
+		"name": "Product-11",
+		"description": "This is a brief description of Product-11.",
+		"price": 47.0,
+		"stock": 69,
+		"image": "https://fakeimg.pl/250x250/?text=Product-11&font=lobster",
+		"category": "Toys",
+		"rating": 4.0
+	},
+	{
+		"id": 12,
+		"name": "Product-12",
+		"description": "This is a brief description of Product-12.",
+		"price": 45.9,
+		"stock": 42,
+		"image": "https://fakeimg.pl/250x250/?text=Product-12&font=lobster",
+		"category": "Toys",
+		"rating": 1.1
+	},
+	{
+		"id": 13,
+		"name": "Product-13",
+		"description": "This is a brief description of Product-13.",
+		"price": 63.81,
+		"stock": 21,
+		"image": "https://fakeimg.pl/250x250/?text=Product-13&font=lobster",
+		"category": "Toys",
+		"rating": 4.9
+	},
+	{
+		"id": 14,
+		"name": "Product-14",
+		"description": "This is a brief description of Product-14.",
+		"price": 96.7,
+		"stock": 31,
+		"image": "https://fakeimg.pl/250x250/?text=Product-14&font=lobster",
+		"category": "Books",
+		"rating": 2.2
+	},
+	{
+		"id": 15,
+		"name": "Product-15",
+		"description": "This is a brief description of Product-15.",
+		"price": 86.64,
+		"stock": 50,
+		"image": "https://fakeimg.pl/250x250/?text=Product-15&font=lobster",
+		"category": "Toys",
+		"rating": 3.1
+	}
+]
