@@ -1,8 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ProductItem = ({ product }) => {
 	return (
-		<div
+		<Link
+			to={`/product-details/${product.id}`}
 			className="border border-lg overflow-hidden
 shadow-sm hover:shadow-lg transition-shadow duration-200 ease-in
 ">
@@ -32,7 +34,7 @@ shadow-sm hover:shadow-lg transition-shadow duration-200 ease-in
 					</span>
 				</div>
 			</div>
-		</div>
+		</Link>
 	);
 };
 
