@@ -1,12 +1,13 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import ProductDetailsSkeleton from "./ProductDetailsSkeleton";
+import { ShopContext } from "../ShopContext";
 
 const ProductDetails = () => {
 	const { id } = useParams();
 	const navigate = useNavigate();
-
+	const context = useContext(ShopContext);
 	const [product, setProduct] = useState(null);
 	const [mainImage, setMainImage] = useState();
 
@@ -80,7 +81,9 @@ const ProductDetails = () => {
 							</span>
 						</div>
 
-						<button className="bg-pink-600 text-white px-5 py-2 rounded-lg shadow hover:bg-pink-900 transition-colors duration-200">
+						<button
+							className="bg-pink-600 text-white px-5 py-2 rounded-lg shadow hover:bg-pink-900 transition-colors duration-200"
+							onClick={() => context.addToCart(product)}>
 							Add To Cart
 						</button>
 					</div>

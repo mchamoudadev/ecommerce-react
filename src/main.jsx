@@ -8,12 +8,17 @@ import Contact from "./pages/Contact.jsx";
 import Cart from "./pages/Cart.jsx";
 import Products from "./pages/Products.jsx";
 import Product from "./pages/Product.jsx";
+import { ShopProvider } from "./ShopContext.jsx";
 
 const routerProvider = createBrowserRouter([
 	{
 		path: "/",
 		element: <App />,
 		children: [
+			{
+				index: true,
+				element: <Products />,
+			},
 			{
 				path: "/about",
 				element: <About />,
@@ -40,6 +45,8 @@ const routerProvider = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<React.StrictMode>
-		<RouterProvider router={routerProvider} />
+		<ShopProvider>
+			<RouterProvider router={routerProvider} />
+		</ShopProvider>
 	</React.StrictMode>
 );

@@ -6,6 +6,7 @@ function App() {
 	return (
 		<div className="max-w-4xl mx-auto pt-16">
 			<Header />
+
 			{/* dynamic page*/}
 			<Outlet />
 			<Footer />
